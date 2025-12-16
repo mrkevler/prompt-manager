@@ -23,6 +23,7 @@ A simple and intuitive desktop app for managing prompts on **macOS** and **Windo
   - [English](#english)
     - [✨ Features](#-features)
     - [🚀 Installation](#-installation)
+    - [📦 Downloads (macOS / Windows)](#-downloads-macos--windows)
       - [Prebuilt installers](#prebuilt-installers)
       - [Build from source](#build-from-source)
     - [📄 CSV file format](#-csv-file-format)
@@ -37,6 +38,7 @@ A simple and intuitive desktop app for managing prompts on **macOS** and **Windo
   - [Polski](#polski)
     - [✨ Funkcje](#-funkcje)
     - [🚀 Instalacja](#-instalacja)
+    - [📦 Pobieranie (macOS / Windows)](#-pobieranie-macos--windows)
       - [Gotowe instalatory](#gotowe-instalatory)
       - [Kompilacja ze źródeł](#kompilacja-ze-źródeł)
     - [📄 Format pliku CSV](#-format-pliku-csv)
@@ -55,22 +57,28 @@ A simple and intuitive desktop app for managing prompts on **macOS** and **Windo
 
 ### ✨ Features
 
-- 📁 **Prompt organization** — main categories, subcategories, and actions  
-- 📋 **Quick copy** — click a prompt to copy it to the clipboard  
-- 📥 **CSV import** — easily add prompts from CSV files  
-- ➕ **Add items** — create categories, actions, and prompts  
-- ✏️ **Edit mode** — modify categories and prompt content  
-- 🔍 **Search** — quickly find prompts  
-- 🌓 **Themes** — light, dark, or automatic (system)  
-- ♿ **Accessibility** — WCAG 2.1 AA compliance  
+- 📁 **Prompt organization** — main categories, subcategories, and actions
+- 📋 **Quick copy** — click a prompt to copy it to the clipboard
+- 📥 **CSV import** — easily add prompts from CSV files
+- ➕ **Add items** — create categories, actions, and prompts
+- ✏️ **Edit mode** — modify categories and prompt content
+- 🔍 **Search** — quickly find prompts
+- 🌓 **Themes** — light, dark, or automatic (system)
+- ♿ **Accessibility** — WCAG 2.1 AA compliance
 
 ### 🚀 Installation
+
+### 📦 Downloads (macOS / Windows)
+
+Latest release (installers .dmg / .exe):
+
+- https://github.com/mrkevler/prompt-manager/releases/tag/v1.0.2-beta
 
 #### Prebuilt installers
 
 Download the right installer for your system:
 
-- **macOS**: `Prompt Manager.dmg`  
+- **macOS**: `Prompt Manager.dmg`
 - **Windows**: `Prompt Manager Setup.exe`
 
 #### Build from source
@@ -103,50 +111,50 @@ Kategoria główna,Kategoria,Akcja,Prompt
 
 **Columns**
 
-- **Kategoria główna** — main organizational category (required)  
-- **Kategoria** — subcategory  
-- **Akcja** — specific action/task  
+- **Kategoria główna** — main organizational category (required)
+- **Kategoria** — subcategory
+- **Akcja** — specific action/task
 - **Prompt** — prompt content (required)
 
 ### 🎨 Interface
 
 #### Navigation
 
-- **Sidebar** — browse categories and subcategories  
-- **Search bar** — filter prompts by content  
-- **Prompt cards** — click to copy  
+- **Sidebar** — browse categories and subcategories
+- **Search bar** — filter prompts by content
+- **Prompt cards** — click to copy
 
 #### Edit mode
 
-1. Click the **Edit** button in the header  
-2. Click a category tag or prompt text to edit  
-3. Press **Enter** to save or **Escape** to cancel  
-4. Click **Save** to exit edit mode  
+1. Click the **Edit** button in the header
+2. Click a category tag or prompt text to edit
+3. Press **Enter** to save or **Escape** to cancel
+4. Click **Save** to exit edit mode
 
 #### Adding new items
 
-1. Click the **+** button in the header  
-2. Choose a type: Main Category, Category, Action, or Prompt  
+1. Click the **+** button in the header
+2. Choose a type: Main Category, Category, Action, or Prompt
 3. Fill in the form and click **Add**
 
 #### Settings
 
-- Theme switching (light/dark/system)  
-- Version and license info  
-- Author details  
+- Theme switching (light/dark/system)
+- Version and license info
+- Author details
 
 ### 🛠 Tech stack
 
-- **Electron** — desktop application  
-- **React** — UI  
-- **Vite** — bundler  
-- **PapaParse** — CSV parsing  
-- **electron-store** — local data storage  
+- **Electron** — desktop application
+- **React** — UI
+- **Vite** — bundler
+- **PapaParse** — CSV parsing
+- **electron-store** — local data storage
 
 ### 📱 System requirements
 
-- **macOS** 10.13 or newer  
-- **Windows** 10 or newer  
+- **macOS** 10.13 or newer
+- **Windows** 10 or newer
 
 ### 📝 License
 
@@ -165,22 +173,28 @@ Prosta i intuicyjna aplikacja desktopowa do zarządzania promptami dla **Mac** i
 
 ### ✨ Funkcje
 
-- 📁 **Organizacja promptów** — kategorie główne, podkategorie i akcje  
-- 📋 **Szybkie kopiowanie** — kliknij w prompt, aby skopiować do schowka  
-- 📥 **Import CSV** — łatwe dodawanie promptów z plików CSV  
-- ➕ **Dodawanie elementów** — twórz kategorie, akcje i prompty  
-- ✏️ **Tryb edycji** — modyfikuj kategorie i treść promptów  
-- 🔍 **Wyszukiwanie** — szybkie znajdowanie promptów  
-- 🌓 **Motywy** — jasny, ciemny lub automatyczny (systemowy)  
-- ♿ **Dostępność** — zgodność z WCAG 2.1 AA  
+- 📁 **Organizacja promptów** — kategorie główne, podkategorie i akcje
+- 📋 **Szybkie kopiowanie** — kliknij w prompt, aby skopiować do schowka
+- 📥 **Import CSV** — łatwe dodawanie promptów z plików CSV
+- ➕ **Dodawanie elementów** — twórz kategorie, akcje i prompty
+- ✏️ **Tryb edycji** — modyfikuj kategorie i treść promptów
+- 🔍 **Wyszukiwanie** — szybkie znajdowanie promptów
+- 🌓 **Motywy** — jasny, ciemny lub automatyczny (systemowy)
+- ♿ **Dostępność** — zgodność z WCAG 2.1 AA
 
 ### 🚀 Instalacja
+
+### 📦 Pobieranie (macOS / Windows)
+
+Najnowszy release (instalatory .dmg / .exe):
+
+- https://github.com/mrkevler/prompt-manager/releases/tag/v1.0.2-beta
 
 #### Gotowe instalatory
 
 Pobierz odpowiedni instalator dla swojego systemu:
 
-- **macOS**: `Prompt Manager.dmg`  
+- **macOS**: `Prompt Manager.dmg`
 - **Windows**: `Prompt Manager Setup.exe`
 
 #### Kompilacja ze źródeł
@@ -213,50 +227,50 @@ Kategoria główna,Kategoria,Akcja,Prompt
 
 **Kolumny**
 
-- **Kategoria główna** — główna kategoria organizacyjna (wymagana)  
-- **Kategoria** — podkategoria  
-- **Akcja** — konkretna akcja/zadanie  
+- **Kategoria główna** — główna kategoria organizacyjna (wymagana)
+- **Kategoria** — podkategoria
+- **Akcja** — konkretna akcja/zadanie
 - **Prompt** — treść prompta (wymagana)
 
 ### 🎨 Interfejs
 
 #### Nawigacja
 
-- **Sidebar** — przeglądaj kategorie i podkategorie  
-- **Wyszukiwarka** — filtruj prompty po treści  
-- **Karty promptów** — kliknij, aby skopiować  
+- **Sidebar** — przeglądaj kategorie i podkategorie
+- **Wyszukiwarka** — filtruj prompty po treści
+- **Karty promptów** — kliknij, aby skopiować
 
 #### Tryb edycji
 
-1. Kliknij przycisk **Edytuj** w nagłówku  
-2. Kliknij w tag kategorii lub treść prompta, aby edytować  
-3. Naciśnij **Enter**, aby zapisać lub **Escape**, aby anulować  
-4. Kliknij **Zapisz**, aby wyjść z trybu edycji  
+1. Kliknij przycisk **Edytuj** w nagłówku
+2. Kliknij w tag kategorii lub treść prompta, aby edytować
+3. Naciśnij **Enter**, aby zapisać lub **Escape**, aby anulować
+4. Kliknij **Zapisz**, aby wyjść z trybu edycji
 
 #### Dodawanie nowych elementów
 
-1. Kliknij przycisk **+** w nagłówku  
-2. Wybierz typ: Kategoria główna, Kategoria, Akcja lub Prompt  
+1. Kliknij przycisk **+** w nagłówku
+2. Wybierz typ: Kategoria główna, Kategoria, Akcja lub Prompt
 3. Wypełnij formularz i kliknij **Dodaj**
 
 #### Ustawienia
 
-- Zmiana motywu (jasny/ciemny/systemowy)  
-- Informacje o wersji i licencji  
-- Dane autora  
+- Zmiana motywu (jasny/ciemny/systemowy)
+- Informacje o wersji i licencji
+- Dane autora
 
 ### 🛠 Technologie
 
-- **Electron** — aplikacja desktopowa  
-- **React** — interfejs użytkownika  
-- **Vite** — bundler  
-- **PapaParse** — parsowanie CSV  
-- **electron-store** — lokalne przechowywanie danych  
+- **Electron** — aplikacja desktopowa
+- **React** — interfejs użytkownika
+- **Vite** — bundler
+- **PapaParse** — parsowanie CSV
+- **electron-store** — lokalne przechowywanie danych
 
 ### 📱 Wymagania systemowe
 
-- **macOS** 10.13 lub nowszy  
-- **Windows** 10 lub nowszy  
+- **macOS** 10.13 lub nowszy
+- **Windows** 10 lub nowszy
 
 ### 📝 Licencja
 
