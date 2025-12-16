@@ -1,0 +1,49 @@
+﻿Kategoria główna,Kategoria,Akcja,Prompt
+Dyrekcja,Strategia,Opracowanie kierunku,"Kontekst: Prowadzisz firmę (B2B lub B2C). Cel: uporządkować kierunek na 6–12 miesięcy. Dane wejściowe: [opis firmy], [rynek/klienci], [produkty/usługi], [liczby: przychód/marża], [zasoby], [ograniczenia], [terminy]. Jeśli brakuje danych, wypisz założenia.
+Role: Jesteś doświadczonym konsultantem strategicznym i doradcą CEO.
+Action: Zaproponuj 3 warianty kierunku strategicznego na 6–12 miesięcy (np. wzrost, rentowność, ekspansja, produkt). Wybierz rekomendowany wariant i uzasadnij wybór na podstawie danych/założeń. Zidentyfikuj kluczowe ryzyka i zależności.
+Format: 1) Założenia (jeśli są) 2) 3 warianty (tabela: Wariant | Plusy | Minusy | Ryzyko | Wymagane zasoby) 3) Rekomendacja 4) 5 priorytetów na 90 dni.
+Tone: formalny, rzeczowy, bez lania wody.
+Test/Constraints: nie dodawaj faktów spoza danych; wyraźnie oznacz założenia; zachowaj spójność liczb i horyzontu czasu; zakończ listą 5 pytań doprecyzowujących."
+Dyrekcja,Strategia,OKR na kwartał,"Kontekst: Chcesz ustawić cele kwartalne (OKR) dla firmy i zespołów. Dane wejściowe: [cele roczne], [najważniejsze inicjatywy], [metryki], [ograniczenia], [zespoły].
+Role: Jesteś Head of Strategy/COO, który projektuje system celów.
+Action: Zbuduj zestaw OKR na 1 kwartał: 1–3 cele firmowe + po 2 cele dla 3 kluczowych obszarów (np. Produkt, Sprzedaż, Operacje). Do każdego celu dodaj 3–5 mierzalnych KR oraz propozycję ownera i rytmu przeglądów.
+Format: tabela: Poziom | Cel (O) | Key Results (KR) | Owner | Metryka/Źródło | Check-in (tyg./2 tyg.) + sekcja „Ryzyka i antywzorce OKR”.
+Tone: formalny, operacyjny.
+Test/Constraints: KR muszą być mierzalne; unikaj „tasków” jako KR; nie twórz więcej niż 12 KR łącznie bez uzasadnienia; jeśli brakuje danych, zaproponuj sensowne metryki i oznacz je jako propozycje."
+Dyrekcja,Zarządzanie zespołem,Feedback trudnej sytuacji,"Kontekst: Jesteś menedżerem i chcesz przygotować rozmowę feedbackową w trudnej sytuacji. Dane wejściowe: [opis zachowania], [konsekwencje biznesowe], [przykłady], [oczekiwana zmiana], [termin].
+Role: Jesteś HR Business Partnerem i trenerem komunikacji.
+Action: Ułóż scenariusz rozmowy w modelu SBI (Situation–Behavior–Impact) + prośba o zmianę + ustalenie kolejnych kroków. Dodaj 2 alternatywne sformułowania (bardziej bezpośrednie i bardziej empatyczne).
+Format: 1) Cel rozmowy 2) Skrypt (SBI) 3) Pytania otwarte (min. 5) 4) Ustalenia i follow-up (tabela: Ustalenie | Owner | Termin | Miara sukcesu).
+Tone: profesjonalny, spokojny, partnerski.
+Test/Constraints: nie używaj ocen i etykiet („leniwy”, „nieodpowiedzialny”); opieraj się na faktach i przykładach; uwzględnij ryzyko eskalacji i jak je obsłużyć."
+Dyrekcja,Zarządzanie zespołem,Plan rekrutacji i onboarding,"Kontekst: Planujesz zatrudnienie na kluczowe stanowisko i chcesz przyspieszyć wdrożenie. Dane wejściowe: [nazwa roli], [zakres], [must-have], [nice-to-have], [widełki], [start date], [zespół].
+Role: Jesteś rekruterem senior + managerem zatrudniającym.
+Action: Przygotuj: (1) opis stanowiska (JD), (2) plan rekrutacji (kanały, etapy, pytania), (3) checklistę onboardingową na 30/60/90 dni z miernikami sukcesu.
+Format: JD (sekcje: misja roli, odpowiedzialności, wymagania, oferujemy) + tabela procesu (Etap | Cel | Pytania/Zadanie | Kryteria oceny | Czas) + tabela 30/60/90.
+Tone: biznesowy, konkretny.
+Test/Constraints: dopasuj język do rynku (bez korpomowy); uwzględnij ryzyka błędnej rekrutacji i jak je zminimalizować; nie wymyślaj benefitów, jeśli nie podano."
+Marketing i Sprzedaż,Copywriting,Landing page oferty,"Kontekst: Tworzysz landing page dla oferty. Dane wejściowe: [produkt/usługa], [ICP/persona], [problem], [obietnica], [dowody], [CTA], [FAQ], [konkurenci].
+Role: Jesteś doświadczonym copywriterem direct-response i strategiem marketingowym.
+Action: Napisz strukturę landing page + gotowe sekcje copy (nagłówki, lead, korzyści, social proof, CTA, FAQ). Zaproponuj 3 warianty hero headline.
+Format: sekcje w kolejności (H1, Subhead, Problem, Rozwiązanie, Korzyści, Jak działa, Dowody, Case, FAQ, CTA) + mini-styleguide (długość zdań, słowa zakazane).
+Tone: perswazyjny, profesjonalny, bez przesady; język prosty.
+Test/Constraints: nie obiecuj wyników bez dowodów; jeśli brakuje danych, oznacz miejsca [DO UZUPEŁNIENIA]; unikaj żargonu; dodaj checklistę zgodności (jasne CTA, spójność obietnicy, dowody)."
+Marketing i Sprzedaż,Copywriting,Sekwencja maili sprzedażowych,"Kontekst: Potrzebujesz sekwencji maili do leadów (B2B lub B2C). Dane wejściowe: [oferta], [ICP], [etap lejka], [najczęstsze obiekcje], [CTA], [limit czasu], [tone of voice marki].
+Role: Jesteś specjalistą lifecycle/email marketing.
+Action: Stwórz sekwencję 5 maili (dzień 0/2/5/9/14): temat + preheader + treść + CTA. Każdy mail ma inny kąt (problem, dowód, case, obiekcje, last call).
+Format: tabela: Dzień | Cel maila | Temat | Preheader | Treść | CTA | Segment (opcjonalnie) + wariant A/B dla tematów (min. 2 na mail).
+Tone: profesjonalny, konkretny.
+Test/Constraints: bez spamu i clickbaitu; zachowaj spójność oferty; nie używaj nieprawdziwych „pilności”; maks. 180–220 słów na mail, jeśli nie podano inaczej."
+Marketing i Sprzedaż,Leady i pipeline,Skrypt cold call / discovery,"Kontekst: Chcesz ustandaryzować rozmowy sprzedażowe (cold call lub discovery). Dane wejściowe: [ICP], [branża], [problem], [oferta], [przewagi], [cena/zakres], [najczęstsze obiekcje].
+Role: Jesteś trenerem sprzedaży B2B i architektem procesu sprzedażowego.
+Action: Ułóż skrypt rozmowy: otwarcie, kwalifikacja (BANT/MEDDICC – wybierz właściwe), diagnoza, propozycja kolejnego kroku. Dodaj bibliotekę 10 pytań oraz odpowiedzi na 8 obiekcji.
+Format: 1) Skrypt (sekcje + przykładowe zdania) 2) Tabela pytań (Cel | Pytanie | Co usłyszeć) 3) Tabela obiekcji (Obiekcja | Odpowiedź | Pytanie pogłębiające).
+Tone: profesjonalny, partnerski, bez agresji.
+Test/Constraints: nie zakładaj, że klient ma problem — prowadź diagnozę; nie obiecuj rzeczy poza zakresem; zakończ checklistą notatek do CRM."
+Marketing i Sprzedaż,Leady i pipeline,Raport pipeline i rekomendacje,"Kontekst: Masz pipeline sprzedażowy i chcesz go przeanalizować oraz zaplanować działania na 2–4 tygodnie. Dane wejściowe: [lista deal’i: etap, wartość, prawdopodobieństwo, next step, data], [cele], [sezonowość], [wąskie gardła].
+Role: Jesteś sales operations manager.
+Action: Oceń jakość pipeline (pokrycie celu, rozkład etapów, ryzyko, higiena CRM) i zaproponuj plan działań (priorytety, follow-upy, eksperymenty).
+Format: 1) Podsumowanie (3–5 wniosków) 2) Tabele: Pokrycie celu | Rozkład etapów | Deale wysokiego ryzyka 3) Plan 2–4 tyg. (tabela: Działanie | Owner | Termin | Oczekiwany wpływ).
+Tone: analityczny, konkretny.
+Test/Constraints: wyraźnie pokaż założenia dot. prawdopodobieństw; nie „poprawiaj” danych bez wskazania; zakończ listą 10 reguł higieny CRM."
